@@ -1,0 +1,51 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="enter your name"],
+form input[type="enter your email"],
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #2e48da;
+    color: rgb(10, 228, 65);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #020c03;
+}
